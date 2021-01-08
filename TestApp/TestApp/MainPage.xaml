@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TestApp.ViewModel"
+             x:Class="TestApp.MainPage">
+    <ContentPage.BindingContext>
+        <local:PageViewModel />
+    </ContentPage.BindingContext>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height=".5*" />
+            <RowDefinition Height="2*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        
+        <Image Source="xamagon" BackgroundColor="PowderBlue" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2"/>
+        <Editor Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Placeholder="Enter Note Here" Text="{Binding TheNote}" />
+        <Button Grid.Row="2" Grid.Column="0" Text="Save" Command="{Binding SaveCommand}"></Button>
+        <Button Grid.Row="2" Grid.Column="1" Text="Erase" Command="{Binding EraseCommand}"></Button>
+        <CollectionView ItemsSource="{Binding AllNotes}" Grid.Row="3" Grid.ColumnSpan="2"
+                        SelectionMode="Single"
+                        SelectedItem="{Binding SelectedNote}"
+                        SelectionChangedCommand="{Binding SelectedNoteChangedCommand}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout>
+                        <Frame>
+                            <Label Text="{Binding .}"></Label>
+                        </Frame>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid> 
+
+</ContentPage>
