@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "8dBtIxKzomMg3PcYQYhAy5yLkQ4SatUrlMSyo8K0W7+UORMqfd27PF4m+usn1nCQwX9bsqOhunXsoGbF8rPWuQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\shaji\\source\\repos\\xamarian\\WithoutXaml\\WithoutXaml.iOS\\WithoutXaml.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+  ],
+  "logs": []
+}

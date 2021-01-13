@@ -1,0 +1,14 @@
+C:\Users\shaji\source\repos\xamarian\WithoutXaml\WithoutXaml\bin\Debug\netstandard2.0\WithoutXaml.deps.json
+C:\Users\shaji\source\repos\xamarian\WithoutXaml\WithoutXaml\bin\Debug\netstandard2.0\WithoutXaml.dll
+C:\Users\shaji\source\repos\xamarian\WithoutXaml\WithoutXaml\bin\Debug\netstandard2.0\ref\WithoutXaml.dll
+C:\Users\shaji\source\repos\xamarian\WithoutXaml\WithoutXaml\bin\Debug\netstandard2.0\WithoutXaml.pdb
+C:\Users\shaji\source\repos\xamarian\WithoutXaml\WithoutXaml\obj\Debug\netstandard2.0\WithoutXaml.csprojAssemblyReference.cache
+C:\Users\shaji\source\repos\xamarian\WithoutXaml\WithoutXaml\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\shaji\source\repos\xamarian\WithoutXaml\WithoutXaml\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\shaji\source\repos\xamarian\WithoutXaml\WithoutXaml\obj\Debug\netstandard2.0\WithoutXaml.AssemblyInfoInputs.cache
+C:\Users\shaji\source\repos\xamarian\WithoutXaml\WithoutXaml\obj\Debug\netstandard2.0\WithoutXaml.AssemblyInfo.cs
+C:\Users\shaji\source\repos\xamarian\WithoutXaml\WithoutXaml\obj\Debug\netstandard2.0\WithoutXaml.csproj.CoreCompileInputs.cache
+C:\Users\shaji\source\repos\xamarian\WithoutXaml\WithoutXaml\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\shaji\source\repos\xamarian\WithoutXaml\WithoutXaml\obj\Debug\netstandard2.0\WithoutXaml.dll
+C:\Users\shaji\source\repos\xamarian\WithoutXaml\WithoutXaml\obj\Debug\netstandard2.0\ref\WithoutXaml.dll
+C:\Users\shaji\source\repos\xamarian\WithoutXaml\WithoutXaml\obj\Debug\netstandard2.0\WithoutXaml.pdb
