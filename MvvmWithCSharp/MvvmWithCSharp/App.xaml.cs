@@ -10,7 +10,10 @@ namespace MvvmWithCSharp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new MainPage()) { 
+                BackgroundColor = Color.PowderBlue,
+                Title = "Note"
+            };
         }
 
         protected override void OnStart()

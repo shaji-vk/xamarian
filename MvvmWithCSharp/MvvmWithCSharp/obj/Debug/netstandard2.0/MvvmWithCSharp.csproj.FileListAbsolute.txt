@@ -12,3 +12,4 @@ C:\Users\shaji\source\repos\xamarian\MvvmWithCSharp\MvvmWithCSharp\obj\Debug\net
 C:\Users\shaji\source\repos\xamarian\MvvmWithCSharp\MvvmWithCSharp\obj\Debug\netstandard2.0\MvvmWithCSharp.dll
 C:\Users\shaji\source\repos\xamarian\MvvmWithCSharp\MvvmWithCSharp\obj\Debug\netstandard2.0\ref\MvvmWithCSharp.dll
 C:\Users\shaji\source\repos\xamarian\MvvmWithCSharp\MvvmWithCSharp\obj\Debug\netstandard2.0\MvvmWithCSharp.pdb
+C:\Users\shaji\source\repos\xamarian\MvvmWithCSharp\MvvmWithCSharp\obj\Debug\netstandard2.0\Views\DetailedView.xaml.g.cs

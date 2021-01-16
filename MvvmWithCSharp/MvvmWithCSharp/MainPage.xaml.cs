@@ -46,9 +46,12 @@ namespace MvvmWithCSharp
             deleteButton.SetBinding(Button.CommandProperty, "DeleteCommand");
 
             collectionView = new CollectionView {
-                ItemTemplate = new NoteTemplate()
-        };
-            collectionView.SetBinding(CollectionView.ItemsSourceProperty, "Notes");
+                ItemTemplate = new NoteTemplate(),
+                SelectionMode =SelectionMode.Single
+             };
+            collectionView.SetBinding(CollectionView.ItemsSourceProperty, nameof(PageViewModel.Notes));
+            collectionView.SetBinding(CollectionView.SelectedItemProperty, nameof(PageViewModel.SelectedNote));
+            collectionView.SetBinding(CollectionView.SelectionChangedCommandProperty, nameof(PageViewModel.SelectedNoteChanged));
 
             var grid = new Grid {
                 Margin = new Thickness(20, 40),
@@ -75,6 +78,7 @@ namespace MvvmWithCSharp
 
             grid.Children.Add(collectionView, 0, 3);
             Grid.SetColumnSpan(collectionView, 2);
+
             Content = grid;
         }
     }
